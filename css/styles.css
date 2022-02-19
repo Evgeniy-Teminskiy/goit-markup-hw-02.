@@ -7,7 +7,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--primery-text-color);
@@ -51,7 +51,7 @@ body {
 .nav-list .link.current {
   color: var(--accent-color);
 }
-.mail {
+.mail-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -60,11 +60,11 @@ body {
   color: var(--primery-text-color);
 }
 
-.mail:hover,
-.mail:focus {
+.mail-nav:hover,
+.mail-nav:focus {
   color: var(--accent-color);
 }
-.phone {
+.phone-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -73,20 +73,11 @@ body {
   color: var(--primery-text-color);
 }
 
-.phone:hover,
-.phone:focus {
+.phone-nav:hover,
+.phone-nav:focus {
   color: var(--accent-color);
 }
-.footer-map {
-  font-size: 14px;
-  line-height: 2;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.footer-map:hover,
-.footer-map:focus {
-  color: var(--accent-color);
-}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -99,12 +90,7 @@ body {
 }
 .hero-btn {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  font-weight: 700;
   color: #ffffff;
   background: var(--accent-color);
 }
@@ -145,14 +131,14 @@ body {
 
   color: var(--titel-text-color);
 }
-.team-titel {
+.titel {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
   color: var(--titel-text-color);
 }
-.team player {
+.team-titel {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -168,61 +154,59 @@ body {
 
   color: var(--primery-text-color);
 }
+/* Footer */
 .footer-logo {
   color: #ffffff;
 }
 .footer-map {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 2;
-
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #ffffff;
 }
-.mail {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 2;
-  letter-spacing: 0.03em;
+.footer-map:hover,
+.footer-map:focus {
+  color: var(--accent-color);
 }
-.phone {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.footer-mail {
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
+  font-style: normal;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+.footer-phone {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-phone:hover,
+.footer-phone:focus {
+  color: var(--accent-color);
 }
 .footer {
   background: #2f303a;
 }
-.page {
-  background: #e5e5e5;
-}
+
 .page-titel {
   visibility: hidden;
 }
 .filtr-btn {
-  width: 128px;
-  height: 38px;
   background: #f5f4fa;
-  border-radius: 4px;
-
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--titel-text-color);
 }
-
+.filtr-btn {
+  cursor: pointer;
+}
 .filtr-btn:hover,
 .filtr-btn:focus {
   color: #ffffff;
